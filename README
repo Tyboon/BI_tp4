@@ -1,0 +1,29 @@
+Emilie Allart
+16/03/15
+
+Question 0: 
+1) Il faut fixer le nombre de cluster et le fonction de distance.
+Si nécessaire pour éviter de mettre trop de temps on peut également régler le nombre maximal d'itération.
+On fait cela en cliquant sur le descriptif de la méthode sur l'interface.
+
+2) On retrouve le nombre d'attributs(5) et leur nom (sepallength, sepalwidth, petallength, petalwidth). De même que les attributs ignorés (ici class). Le nombre d'instances, la méthode utilisée (kmeans), son nombre d'itération (6), la métrique de qualité, les données sur les centroides, le pourcentage de présence dans chaque cluster, la classe associée au cluster, le taux d'erreur par rapport à la vraie répartition.
+
+Question 1 :
+1) Le centre des clusters est la valeur moyenne sur chaque attribut, des données de ce cluster
+
+2) Pour calculer le "Incorrectly clustered instances" il faut calculer le pourcentage de faux positif en comparant aux données réelles.
+
+3) on compare la distance de l'instance à chaque cluster, la minimale indique le cluster auquel il appartient. Sinon on peut regarder la sortie.
+
+Question 2 :
+1) Le clustering varie et le taux d'erreur augmente fortement lorsqu'on élève suffisement le seed
+
+2) Le taux d'erreur diminue, cependant on ne peut plus interpreter ce classement
+
+3) Avec le kmeans, nous voyons bien que le classement des données varie selon les points choisis au hasard (changement du seed) et du nombre de cluster.
+Il faut connaitre le nombre de cluster que l'on souhaite faire. 
+
+
+
+Question 3:
+1) 
